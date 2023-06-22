@@ -1,7 +1,6 @@
 using Android.OS;
-using TestTimezoneConversion.AndroidApp.Tests;
 
-namespace TestTimezonePerformance.AndroidApp
+namespace TestTimezonePerformance.AndroidAppNet7
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
     public class MainActivity : Activity
