@@ -27,7 +27,7 @@ namespace TestTimezonePerformance.AndroidAppNet7
 
             System.Diagnostics.Debug.WriteLine($"GetSystemTimeZones {lst.Count}");
 
-            await ShowMessage($"Results", $"Performance {sw.Elapsed.TotalSeconds}.{sw.Elapsed.Milliseconds} sec");
+            await ShowMessage($"Results", $"Performance {sw.Elapsed.TotalSeconds:N3} sec");
         }
 
         private async Task ShowMessage(string title, string message)
